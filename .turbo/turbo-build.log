@@ -1,5 +1,5 @@
 
-> medplum-fhircast-demo@4.3.1 build
+> medplum-fhircast-demo@4.3.2 build
 > tsc && vite build
 
 [36mvite v6.3.5 [32mbuilding for production...[36m[39m
@@ -10,9 +10,9 @@ computing gzip size...
 [2mdist/[22m[32mindex.html                 [39m[1m[2m  0.45 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
 [2mdist/[22m[2massets/[22m[35mindex-DBfW44Fu.css  [39m[1m[2m217.36 kB[22m[1m[22m[2m │ gzip:  32.01 kB[22m
 [33m
+[2mdist/[22m[2massets/[22m[36mindex-CeCqXyEF.js   [39m[1m[33m690.69 kB[39m[22m[2m │ gzip: 207.83 kB[22m
+[32m✓ built in 48.27s[39m
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
-[2mdist/[22m[2massets/[22m[36mindex-CeCqXyEF.js   [39m[1m[33m690.69 kB[39m[22m[2m │ gzip: 207.83 kB[22m
-[32m✓ built in 46.59s[39m
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
