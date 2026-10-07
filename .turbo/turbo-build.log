@@ -1,19 +1,19 @@
 
-> medplum-fhircast-demo@5.2.1 build
+> medplum-fhircast-demo@5.2.2 build
 > tsc && vite build
 
-[36mvite v8.3.1 [32mbuilding client environment for production...[36m[39m
+[36mvite v8.3.2 [32mbuilding client environment for production...[36m[39m
 transforming...
 ✓ 7079 modules transformed.
 rendering chunks...
 computing gzip size...
 dist/index.html                   0.45 kB │ gzip:   0.29 kB
-dist/assets/index-DMLqbSYR.css  239.93 kB │ gzip:  35.12 kB
-dist/assets/index-CqrOu6Pp.js   791.10 kB │ gzip: 235.13 kB
+dist/assets/index-CYrpeVuR.css  245.54 kB │ gzip:  35.79 kB
+dist/assets/index-Qs07AUWT.js   791.67 kB │ gzip: 235.29 kB
 
 [33m[plugin builtin:vite-reporter] 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
-[32m✓ built in 3.84s[39m
+[32m✓ built in 4.63s[39m
